@@ -14,6 +14,8 @@ class ARViewController: UIViewController, ARSCNViewDelegate {
     
     @IBOutlet var sceneView: ARSCNView!
     var object:String = ""
+    
+    var shipAdded:Bool = false
     override func viewDidLoad() {
         super.viewDidLoad()
         addTapGestureToSceneView()
@@ -65,29 +67,62 @@ class ARViewController: UIViewController, ARSCNViewDelegate {
 //        }
     func addTapGestureToSceneView() {
         //tapgesture setup
-        let tapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(ARViewController.addShipToSceneView(withGestureRecognizer:)))
-        sceneView.addGestureRecognizer(tapGestureRecognizer)
+        print("shipAdded: " + shipAdded.description)
+        
+            let tapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(ARViewController.addShipToSceneView(withGestureRecognizer:)))
+                    sceneView.addGestureRecognizer(tapGestureRecognizer)
+
+
+
 
         // now you can recognize EVERY tap
+        
     }
 
     @objc func addShipToSceneView(withGestureRecognizer recognizer: UIGestureRecognizer) {
-        let tapLocation = recognizer.location(in: sceneView)
-        let hitTestResults = sceneView.hitTest(tapLocation, types: .existingPlaneUsingExtent)
         
-        guard let hitTestResult = hitTestResults.first else { return }
-        let translation = hitTestResult.worldTransform.translation
-        let x = translation.x
-        let y = translation.y
-        let z = translation.z
-        
-        guard let shipScene = SCNScene(named: "ship2.scn"),
-            let shipNode = shipScene.rootNode.childNode(withName: "ship", recursively: false)
-            else { return }
-        
-        
-        shipNode.position = SCNVector3(x,y,z)
-        sceneView.scene.rootNode.addChildNode(shipNode)
+        if shipAdded == false {
+            let tapLocation = recognizer.location(in: sceneView)
+            let hitTestResults = sceneView.hitTest(tapLocation, types: .existingPlaneUsingExtent)
+            
+            guard let hitTestResult = hitTestResults.first else { return }
+            let translation = hitTestResult.worldTransform.translation
+            let x = translation.x
+            let y = translation.y
+            let z = translation.z
+            
+            guard let shipScene = SCNScene(named: "ship2.scn"),
+                let shipNode = shipScene.rootNode.childNode(withName: "ship", recursively: false)
+                else { return }
+            
+            
+            shipNode.position = SCNVector3(x,y,z)
+            sceneView.scene.rootNode.addChildNode(shipNode)
+            shipAdded = true
+        } else {
+            let sceneView = recognizer.view as! ARSCNView
+            
+            let touchLocation = recognizer.location(in: sceneView)
+            
+            let hitResults = sceneView.hitTest(touchLocation, options: [:])
+            
+            if !hitResults.isEmpty {
+                
+                // this means the node has been touched
+                print("tapped the ship")
+                
+                let alert = UIAlertController(title: "Question#1", message: "Is heavy exercise a trigger for asthma?", preferredStyle: .alert)
+                
+                alert.addAction(UIAlertAction(title: "Yes", style: UIAlertActionStyle.default, handler: nil))
+                alert.addAction(UIAlertAction(title: "No", style: UIAlertActionStyle.default, handler: nil))
+
+                self.present(alert, animated: true, completion: nil)
+            } else {
+                print("tapped something besides the ship")
+            }
+        }
+
+
     }
     
     func renderer(_ renderer: SCNSceneRenderer, didAdd node: SCNNode, for anchor: ARAnchor) {
@@ -153,10 +188,10 @@ class ARViewController: UIViewController, ARSCNViewDelegate {
 }
 
 extension float4x4 {
-    var translation: float3 {
-        let translation = self.columns.3
-        return float3(translation.x, translation.y, translation.z)
-    }
+//    var translation: float3 {
+//        let translation = self.columns.3
+//        return float3(translation.x, translation.y, translation.z)
+//    }
 }
 
 extension UIColor {

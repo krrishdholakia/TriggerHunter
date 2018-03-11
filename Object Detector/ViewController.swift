@@ -60,6 +60,7 @@ class ViewController: UIViewController, AVCaptureVideoDataOutputSampleBufferDele
             
             self.object = firstObservation.identifier
             
+            
             for item in self.objectList {
                 if self.object == item {
                     print("match found")

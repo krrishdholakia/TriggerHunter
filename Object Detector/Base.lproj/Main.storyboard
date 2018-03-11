@@ -29,6 +29,33 @@
             </objects>
             <point key="canvasLocation" x="32.799999999999997" y="31.934032983508249"/>
         </scene>
+        <!--Recognize Objects View Controller-->
+        <scene sceneID="Skn-kJ-i9o">
+            <objects>
+                <viewController id="OFx-kR-kTD" customClass="RecognizeObjectsViewController" customModule="Object_Detector" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="36L-dD-Z7d"/>
+                        <viewControllerLayoutGuide type="bottom" id="EUV-f9-dFn"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="fWq-71-Z88">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <arscnView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jqX-uX-6sc">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </arscnView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                    <connections>
+                        <outlet property="sceneView" destination="jqX-uX-6sc" id="xPg-Yi-klt"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hDc-5d-usx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="118" y="849"/>
+        </scene>
         <!--View Controller-->
         <scene sceneID="Ymk-mM-sdn">
             <objects>

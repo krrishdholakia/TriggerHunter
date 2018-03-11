@@ -15,11 +15,16 @@
 		24B3940E1F38762E0031DA15 /* Object_DetectorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B3940D1F38762E0031DA15 /* Object_DetectorTests.swift */; };
 		24B394191F38762F0031DA15 /* Object_DetectorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B394181F38762F0031DA15 /* Object_DetectorUITests.swift */; };
 		554B0D2C20539FE60000E253 /* MobileNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 554B0D2B20539FE60000E253 /* MobileNet.mlmodel */; };
-		554B0D2E2053A1EA0000E253 /* TinyYOLO.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 554B0D2D2053A1EA0000E253 /* TinyYOLO.mlmodel */; };
 		554B0D302053A53B0000E253 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 554B0D2F2053A53B0000E253 /* Inceptionv3.mlmodel */; };
 		554C131E20547E5D0058D6BB /* ARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554C131D20547E5D0058D6BB /* ARViewController.swift */; };
 		554C13202054805B0058D6BB /* ship2.scn in Resources */ = {isa = PBXBuildFile; fileRef = 554C131F2054805B0058D6BB /* ship2.scn */; };
 		554C1322205482DD0058D6BB /* ship.png in Resources */ = {isa = PBXBuildFile; fileRef = 554C1321205482DD0058D6BB /* ship.png */; };
+		554C13242054891F0058D6BB /* RecognizeObjectsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554C13232054891F0058D6BB /* RecognizeObjectsViewController.swift */; };
+		554C132A205489D30058D6BB /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554C1326205489D30058D6BB /* Helpers.swift */; };
+		554C132B205489D30058D6BB /* CVPixelBuffer+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554C1327205489D30058D6BB /* CVPixelBuffer+Helpers.swift */; };
+		554C132C205489D30058D6BB /* TinyYOLO.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 554C1328205489D30058D6BB /* TinyYOLO.mlmodel */; };
+		554C132D205489D30058D6BB /* YOLO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554C1329205489D30058D6BB /* YOLO.swift */; };
+		554C132F20548A350058D6BB /* ARViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554C132E20548A350058D6BB /* ARViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,11 +59,16 @@
 		24B394181F38762F0031DA15 /* Object_DetectorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Object_DetectorUITests.swift; sourceTree = "<group>"; };
 		24B3941A1F38762F0031DA15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		554B0D2B20539FE60000E253 /* MobileNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNet.mlmodel; sourceTree = "<group>"; };
-		554B0D2D2053A1EA0000E253 /* TinyYOLO.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = TinyYOLO.mlmodel; sourceTree = "<group>"; };
 		554B0D2F2053A53B0000E253 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 		554C131D20547E5D0058D6BB /* ARViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewController.swift; sourceTree = "<group>"; };
 		554C131F2054805B0058D6BB /* ship2.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = ship2.scn; sourceTree = "<group>"; };
 		554C1321205482DD0058D6BB /* ship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ship.png; sourceTree = "<group>"; };
+		554C13232054891F0058D6BB /* RecognizeObjectsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecognizeObjectsViewController.swift; sourceTree = "<group>"; };
+		554C1326205489D30058D6BB /* Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		554C1327205489D30058D6BB /* CVPixelBuffer+Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CVPixelBuffer+Helpers.swift"; sourceTree = "<group>"; };
+		554C1328205489D30058D6BB /* TinyYOLO.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = TinyYOLO.mlmodel; sourceTree = "<group>"; };
+		554C1329205489D30058D6BB /* YOLO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YOLO.swift; sourceTree = "<group>"; };
+		554C132E20548A350058D6BB /* ARViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +121,8 @@
 			children = (
 				24B393F81F38762E0031DA15 /* AppDelegate.swift */,
 				24B393FA1F38762E0031DA15 /* ViewController.swift */,
+				554C13232054891F0058D6BB /* RecognizeObjectsViewController.swift */,
+				554C1325205489D30058D6BB /* TinyYolo Helpers */,
 				554C131D20547E5D0058D6BB /* ARViewController.swift */,
 				554B0D2F2053A53B0000E253 /* Inceptionv3.mlmodel */,
 				554C1321205482DD0058D6BB /* ship.png */,
@@ -119,8 +131,8 @@
 				24B393FC1F38762E0031DA15 /* Main.storyboard */,
 				24B393FF1F38762E0031DA15 /* Assets.xcassets */,
 				24B394011F38762E0031DA15 /* LaunchScreen.storyboard */,
-				554B0D2D2053A1EA0000E253 /* TinyYOLO.mlmodel */,
 				24B394041F38762E0031DA15 /* Info.plist */,
+				554C132E20548A350058D6BB /* ARViewModel.swift */,
 			);
 			path = "Object Detector";
 			sourceTree = "<group>";
@@ -141,6 +153,17 @@
 				24B3941A1F38762F0031DA15 /* Info.plist */,
 			);
 			path = "Object DetectorUITests";
+			sourceTree = "<group>";
+		};
+		554C1325205489D30058D6BB /* TinyYolo Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				554C1326205489D30058D6BB /* Helpers.swift */,
+				554C1327205489D30058D6BB /* CVPixelBuffer+Helpers.swift */,
+				554C1328205489D30058D6BB /* TinyYOLO.mlmodel */,
+				554C1329205489D30058D6BB /* YOLO.swift */,
+			);
+			path = "TinyYolo Helpers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -277,11 +300,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				554B0D302053A53B0000E253 /* Inceptionv3.mlmodel in Sources */,
+				554C132C205489D30058D6BB /* TinyYOLO.mlmodel in Sources */,
 				554B0D2C20539FE60000E253 /* MobileNet.mlmodel in Sources */,
+				554C132D205489D30058D6BB /* YOLO.swift in Sources */,
+				554C132F20548A350058D6BB /* ARViewModel.swift in Sources */,
 				24B393FB1F38762E0031DA15 /* ViewController.swift in Sources */,
+				554C132A205489D30058D6BB /* Helpers.swift in Sources */,
 				554C131E20547E5D0058D6BB /* ARViewController.swift in Sources */,
 				24B393F91F38762E0031DA15 /* AppDelegate.swift in Sources */,
-				554B0D2E2053A1EA0000E253 /* TinyYOLO.mlmodel in Sources */,
+				554C132B205489D30058D6BB /* CVPixelBuffer+Helpers.swift in Sources */,
+				554C13242054891F0058D6BB /* RecognizeObjectsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
