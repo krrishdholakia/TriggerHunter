@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Object Detector/ARViewController.swift"
-            timestampString = "542420955.017345"
+            timestampString = "542528958.483305"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "69"
-            endingLineNumber = "69"
+            startingLineNumber = "65"
+            endingLineNumber = "65"
             landmarkName = "addTapGestureToSceneView()"
             landmarkType = "7">
          </BreakpointContent>
@@ -26,11 +26,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Object Detector/ARViewController.swift"
-            timestampString = "542420955.017738"
+            timestampString = "542528958.48366"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "69"
-            endingLineNumber = "69"
+            startingLineNumber = "65"
+            endingLineNumber = "65"
             landmarkName = "addTapGestureToSceneView()"
             landmarkType = "7">
          </BreakpointContent>
