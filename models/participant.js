@@ -19,4 +19,4 @@ var participant = Schema({
     }
 }, { timestamps: true });
 
-module.exports = mongoose.model('participants', adminSchema);
+module.exports = mongoose.model('participants', participant);
