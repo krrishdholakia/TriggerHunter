@@ -1,0 +1,423 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E0CA1941FB5060F00F8EF37 /* Gotham Rounded Book.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2E0CA1911FB5060F00F8EF37 /* Gotham Rounded Book.otf */; };
+		2E0CA1951FB5060F00F8EF37 /* Gotham Rounded Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2E0CA1921FB5060F00F8EF37 /* Gotham Rounded Medium.otf */; };
+		2E0CA1961FB5060F00F8EF37 /* Gotham Rounded Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2E0CA1931FB5060F00F8EF37 /* Gotham Rounded Bold.otf */; };
+		2E0CA1981FB507AD00F8EF37 /* TriggerListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0CA1971FB507AD00F8EF37 /* TriggerListViewController.swift */; };
+		2E0CA19B1FB55DC400F8EF37 /* TriggerNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0CA19A1FB55DC400F8EF37 /* TriggerNameViewController.swift */; };
+		2E0CA19F1FB55E7F00F8EF37 /* UIStoryboard+Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0CA19E1FB55E7F00F8EF37 /* UIStoryboard+Main.swift */; };
+		2E0CA1A31FB5621500F8EF37 /* TriggerInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0CA1A21FB5621500F8EF37 /* TriggerInfoViewController.swift */; };
+		2E6D64251F86724800330A96 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6D64241F86724800330A96 /* AppDelegate.swift */; };
+		2E6D64291F86724800330A96 /* Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6D64281F86724800330A96 /* Scene.swift */; };
+		2E6D642B1F86724800330A96 /* ARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6D642A1F86724800330A96 /* ARViewController.swift */; };
+		2E6D642E1F86724800330A96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E6D642C1F86724800330A96 /* Main.storyboard */; };
+		2E6D64301F86724800330A96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E6D642F1F86724800330A96 /* Assets.xcassets */; };
+		2E6D64331F86724800330A96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E6D64311F86724800330A96 /* LaunchScreen.storyboard */; };
+		2E6D643B1F86748B00330A96 /* Scene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2E6D643A1F86748B00330A96 /* Scene.sks */; };
+		2E8248E61FD48E8A00EBEED0 /* TriggerNearbyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8248E51FD48E8A00EBEED0 /* TriggerNearbyViewController.swift */; };
+		2ED1E7C31FB95BCF004BCBB1 /* QuizQuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED1E7C21FB95BCF004BCBB1 /* QuizQuestionViewController.swift */; };
+		2ED1E7C51FB960C1004BCBB1 /* Array+Shuffle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED1E7C41FB960C1004BCBB1 /* Array+Shuffle.swift */; };
+		2EFF4F381FB4D18000AF4362 /* Trigger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EFF4F371FB4D18000AF4362 /* Trigger.swift */; };
+		5501D83E208BE7730088A703 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 5501D83D208BE7720088A703 /* Inceptionv3.mlmodel */; };
+		551D28BA208BE4DD0020CA94 /* ObjectDetectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551D28B9208BE4DD0020CA94 /* ObjectDetectionViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2E0CA1911FB5060F00F8EF37 /* Gotham Rounded Book.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham Rounded Book.otf"; sourceTree = "<group>"; };
+		2E0CA1921FB5060F00F8EF37 /* Gotham Rounded Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham Rounded Medium.otf"; sourceTree = "<group>"; };
+		2E0CA1931FB5060F00F8EF37 /* Gotham Rounded Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham Rounded Bold.otf"; sourceTree = "<group>"; };
+		2E0CA1971FB507AD00F8EF37 /* TriggerListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriggerListViewController.swift; sourceTree = "<group>"; };
+		2E0CA19A1FB55DC400F8EF37 /* TriggerNameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriggerNameViewController.swift; sourceTree = "<group>"; };
+		2E0CA19E1FB55E7F00F8EF37 /* UIStoryboard+Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStoryboard+Main.swift"; sourceTree = "<group>"; };
+		2E0CA1A21FB5621500F8EF37 /* TriggerInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriggerInfoViewController.swift; sourceTree = "<group>"; };
+		2E6D64211F86724800330A96 /* Trigger Hunter AR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Trigger Hunter AR.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E6D64241F86724800330A96 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2E6D64281F86724800330A96 /* Scene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scene.swift; sourceTree = "<group>"; };
+		2E6D642A1F86724800330A96 /* ARViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewController.swift; sourceTree = "<group>"; };
+		2E6D642D1F86724800330A96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2E6D642F1F86724800330A96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2E6D64321F86724800330A96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2E6D64341F86724800330A96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E6D643A1F86748B00330A96 /* Scene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Scene.sks; sourceTree = "<group>"; };
+		2E8248E51FD48E8A00EBEED0 /* TriggerNearbyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriggerNearbyViewController.swift; sourceTree = "<group>"; };
+		2E8248E71FD4941C00EBEED0 /* Trigger Hunter AR.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Trigger Hunter AR.entitlements"; sourceTree = "<group>"; };
+		2ED1E7C21FB95BCF004BCBB1 /* QuizQuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizQuestionViewController.swift; sourceTree = "<group>"; };
+		2ED1E7C41FB960C1004BCBB1 /* Array+Shuffle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Shuffle.swift"; sourceTree = "<group>"; };
+		2EFF4F371FB4D18000AF4362 /* Trigger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trigger.swift; sourceTree = "<group>"; };
+		5501D83D208BE7720088A703 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
+		551D28B9208BE4DD0020CA94 /* ObjectDetectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectDetectionViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2E6D641E1F86724800330A96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E0CA1901FB505F900F8EF37 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				2E0CA1931FB5060F00F8EF37 /* Gotham Rounded Bold.otf */,
+				2E0CA1911FB5060F00F8EF37 /* Gotham Rounded Book.otf */,
+				2E0CA1921FB5060F00F8EF37 /* Gotham Rounded Medium.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		2E0CA1991FB507B600F8EF37 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2E0CA1971FB507AD00F8EF37 /* TriggerListViewController.swift */,
+				2E6D642A1F86724800330A96 /* ARViewController.swift */,
+				2E8248E51FD48E8A00EBEED0 /* TriggerNearbyViewController.swift */,
+				2E0CA19A1FB55DC400F8EF37 /* TriggerNameViewController.swift */,
+				2E0CA1A21FB5621500F8EF37 /* TriggerInfoViewController.swift */,
+				2ED1E7C21FB95BCF004BCBB1 /* QuizQuestionViewController.swift */,
+				551D28B9208BE4DD0020CA94 /* ObjectDetectionViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		2E0CA19D1FB55E7200F8EF37 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				2E0CA19E1FB55E7F00F8EF37 /* UIStoryboard+Main.swift */,
+				2ED1E7C41FB960C1004BCBB1 /* Array+Shuffle.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		2E6D64181F86724800330A96 = {
+			isa = PBXGroup;
+			children = (
+				2E6D64231F86724800330A96 /* Trigger Hunter AR */,
+				2E6D64221F86724800330A96 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2E6D64221F86724800330A96 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2E6D64211F86724800330A96 /* Trigger Hunter AR.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2E6D64231F86724800330A96 /* Trigger Hunter AR */ = {
+			isa = PBXGroup;
+			children = (
+				2E8248E71FD4941C00EBEED0 /* Trigger Hunter AR.entitlements */,
+				2EFF4F371FB4D18000AF4362 /* Trigger.swift */,
+				5501D83D208BE7720088A703 /* Inceptionv3.mlmodel */,
+				2E0CA1991FB507B600F8EF37 /* View Controllers */,
+				2E0CA19D1FB55E7200F8EF37 /* Helpers */,
+				2E6D642C1F86724800330A96 /* Main.storyboard */,
+				2E6D64241F86724800330A96 /* AppDelegate.swift */,
+				2E6D64281F86724800330A96 /* Scene.swift */,
+				2E6D643A1F86748B00330A96 /* Scene.sks */,
+				2E6D642F1F86724800330A96 /* Assets.xcassets */,
+				2E0CA1901FB505F900F8EF37 /* Fonts */,
+				2E6D64311F86724800330A96 /* LaunchScreen.storyboard */,
+				2E6D64341F86724800330A96 /* Info.plist */,
+			);
+			path = "Trigger Hunter AR";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2E6D64201F86724800330A96 /* Trigger Hunter AR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E6D64371F86724800330A96 /* Build configuration list for PBXNativeTarget "Trigger Hunter AR" */;
+			buildPhases = (
+				2E6D641D1F86724800330A96 /* Sources */,
+				2E6D641E1F86724800330A96 /* Frameworks */,
+				2E6D641F1F86724800330A96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Trigger Hunter AR";
+			productName = "Trigger Hunter AR";
+			productReference = 2E6D64211F86724800330A96 /* Trigger Hunter AR.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2E6D64191F86724800330A96 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Mobile & Ubiquitous Computing 2017";
+				TargetAttributes = {
+					2E6D64201F86724800330A96 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 2E6D641C1F86724800330A96 /* Build configuration list for PBXProject "Trigger Hunter AR" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2E6D64181F86724800330A96;
+			productRefGroup = 2E6D64221F86724800330A96 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2E6D64201F86724800330A96 /* Trigger Hunter AR */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2E6D641F1F86724800330A96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E0CA1961FB5060F00F8EF37 /* Gotham Rounded Bold.otf in Resources */,
+				2E0CA1941FB5060F00F8EF37 /* Gotham Rounded Book.otf in Resources */,
+				2E6D64331F86724800330A96 /* LaunchScreen.storyboard in Resources */,
+				2E6D64301F86724800330A96 /* Assets.xcassets in Resources */,
+				2E6D643B1F86748B00330A96 /* Scene.sks in Resources */,
+				2E0CA1951FB5060F00F8EF37 /* Gotham Rounded Medium.otf in Resources */,
+				2E6D642E1F86724800330A96 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E6D641D1F86724800330A96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EFF4F381FB4D18000AF4362 /* Trigger.swift in Sources */,
+				2E0CA1981FB507AD00F8EF37 /* TriggerListViewController.swift in Sources */,
+				5501D83E208BE7730088A703 /* Inceptionv3.mlmodel in Sources */,
+				2E6D642B1F86724800330A96 /* ARViewController.swift in Sources */,
+				551D28BA208BE4DD0020CA94 /* ObjectDetectionViewController.swift in Sources */,
+				2ED1E7C51FB960C1004BCBB1 /* Array+Shuffle.swift in Sources */,
+				2E0CA1A31FB5621500F8EF37 /* TriggerInfoViewController.swift in Sources */,
+				2E0CA19F1FB55E7F00F8EF37 /* UIStoryboard+Main.swift in Sources */,
+				2ED1E7C31FB95BCF004BCBB1 /* QuizQuestionViewController.swift in Sources */,
+				2E6D64291F86724800330A96 /* Scene.swift in Sources */,
+				2E0CA19B1FB55DC400F8EF37 /* TriggerNameViewController.swift in Sources */,
+				2E6D64251F86724800330A96 /* AppDelegate.swift in Sources */,
+				2E8248E61FD48E8A00EBEED0 /* TriggerNearbyViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2E6D642C1F86724800330A96 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E6D642D1F86724800330A96 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2E6D64311F86724800330A96 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E6D64321F86724800330A96 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2E6D64351F86724800330A96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2E6D64361F86724800330A96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2E6D64381F86724800330A96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Trigger Hunter AR/Trigger Hunter AR.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 823439UD45;
+				INFOPLIST_FILE = "Trigger Hunter AR/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Krrish.TriggerHunter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		2E6D64391F86724800330A96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Trigger Hunter AR/Trigger Hunter AR.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 823439UD45;
+				INFOPLIST_FILE = "Trigger Hunter AR/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Krrish.TriggerHunter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2E6D641C1F86724800330A96 /* Build configuration list for PBXProject "Trigger Hunter AR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E6D64351F86724800330A96 /* Debug */,
+				2E6D64361F86724800330A96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E6D64371F86724800330A96 /* Build configuration list for PBXNativeTarget "Trigger Hunter AR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E6D64381F86724800330A96 /* Debug */,
+				2E6D64391F86724800330A96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2E6D64191F86724800330A96 /* Project object */;
+}
