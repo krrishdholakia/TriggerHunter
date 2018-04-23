@@ -29,9 +29,12 @@
 		551D28BA208BE4DD0020CA94 /* ObjectDetectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551D28B9208BE4DD0020CA94 /* ObjectDetectionViewController.swift */; };
 		55385913208D15E9008BDE01 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55385912208D15E9008BDE01 /* RegistrationViewController.swift */; };
 		5538594F208D7838008BDE01 /* RoomScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5538594E208D7838008BDE01 /* RoomScanViewController.swift */; };
+		55385951208D9576008BDE01 /* Participant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55385950208D9576008BDE01 /* Participant.swift */; };
+		C74B27A05A2136CBCF920C2A /* Pods_Trigger_Hunter_AR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC6D5F421C00904A5AE58FD4 /* Pods_Trigger_Hunter_AR.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		251339288308C4DCD7791298 /* Pods-Trigger Hunter AR.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Trigger Hunter AR.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Trigger Hunter AR/Pods-Trigger Hunter AR.debug.xcconfig"; sourceTree = "<group>"; };
 		2E0CA1911FB5060F00F8EF37 /* Gotham Rounded Book.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham Rounded Book.otf"; sourceTree = "<group>"; };
 		2E0CA1921FB5060F00F8EF37 /* Gotham Rounded Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham Rounded Medium.otf"; sourceTree = "<group>"; };
 		2E0CA1931FB5060F00F8EF37 /* Gotham Rounded Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham Rounded Bold.otf"; sourceTree = "<group>"; };
@@ -53,10 +56,13 @@
 		2ED1E7C21FB95BCF004BCBB1 /* QuizQuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizQuestionViewController.swift; sourceTree = "<group>"; };
 		2ED1E7C41FB960C1004BCBB1 /* Array+Shuffle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Shuffle.swift"; sourceTree = "<group>"; };
 		2EFF4F371FB4D18000AF4362 /* Trigger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trigger.swift; sourceTree = "<group>"; };
+		536A2F31ACF17AD76F87B167 /* Pods-Trigger Hunter AR.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Trigger Hunter AR.release.xcconfig"; path = "Pods/Target Support Files/Pods-Trigger Hunter AR/Pods-Trigger Hunter AR.release.xcconfig"; sourceTree = "<group>"; };
 		5501D83D208BE7720088A703 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 		551D28B9208BE4DD0020CA94 /* ObjectDetectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectDetectionViewController.swift; sourceTree = "<group>"; };
 		55385912208D15E9008BDE01 /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
 		5538594E208D7838008BDE01 /* RoomScanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomScanViewController.swift; sourceTree = "<group>"; };
+		55385950208D9576008BDE01 /* Participant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Participant.swift; path = Helpers/Participant.swift; sourceTree = "<group>"; };
+		BC6D5F421C00904A5AE58FD4 /* Pods_Trigger_Hunter_AR.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Trigger_Hunter_AR.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C74B27A05A2136CBCF920C2A /* Pods_Trigger_Hunter_AR.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,6 +117,8 @@
 			children = (
 				2E6D64231F86724800330A96 /* Asthma GO */,
 				2E6D64221F86724800330A96 /* Products */,
+				CDD0A4887FF519A352F82B3B /* Pods */,
+				8BD5BFE621BCBC79F1E69D85 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -137,8 +146,26 @@
 				2E0CA1901FB505F900F8EF37 /* Fonts */,
 				2E6D64311F86724800330A96 /* LaunchScreen.storyboard */,
 				2E6D64341F86724800330A96 /* Info.plist */,
+				55385950208D9576008BDE01 /* Participant.swift */,
 			);
 			path = "Asthma GO";
+			sourceTree = "<group>";
+		};
+		8BD5BFE621BCBC79F1E69D85 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BC6D5F421C00904A5AE58FD4 /* Pods_Trigger_Hunter_AR.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CDD0A4887FF519A352F82B3B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				251339288308C4DCD7791298 /* Pods-Trigger Hunter AR.debug.xcconfig */,
+				536A2F31ACF17AD76F87B167 /* Pods-Trigger Hunter AR.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,9 +175,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2E6D64371F86724800330A96 /* Build configuration list for PBXNativeTarget "Asthma GO" */;
 			buildPhases = (
+				59C352A57B6C40FD39AB6533 /* [CP] Check Pods Manifest.lock */,
 				2E6D641D1F86724800330A96 /* Sources */,
 				2E6D641E1F86724800330A96 /* Frameworks */,
 				2E6D641F1F86724800330A96 /* Resources */,
+				2CAB2A7BFE5B0AC7F8B1CDC0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -220,6 +249,45 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2CAB2A7BFE5B0AC7F8B1CDC0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Trigger Hunter AR/Pods-Trigger Hunter AR-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Trigger Hunter AR/Pods-Trigger Hunter AR-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		59C352A57B6C40FD39AB6533 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Trigger Hunter AR-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2E6D641D1F86724800330A96 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -235,6 +303,7 @@
 				2ED1E7C51FB960C1004BCBB1 /* Array+Shuffle.swift in Sources */,
 				2E0CA1A31FB5621500F8EF37 /* TriggerInfoViewController.swift in Sources */,
 				2E0CA19F1FB55E7F00F8EF37 /* UIStoryboard+Main.swift in Sources */,
+				55385951208D9576008BDE01 /* Participant.swift in Sources */,
 				2ED1E7C31FB95BCF004BCBB1 /* QuizQuestionViewController.swift in Sources */,
 				2E6D64291F86724800330A96 /* Scene.swift in Sources */,
 				2E0CA19B1FB55DC400F8EF37 /* TriggerNameViewController.swift in Sources */,
@@ -374,6 +443,7 @@
 		};
 		2E6D64381F86724800330A96 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 251339288308C4DCD7791298 /* Pods-Trigger Hunter AR.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5HCB9SF4EZ;
@@ -388,6 +458,7 @@
 		};
 		2E6D64391F86724800330A96 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 536A2F31ACF17AD76F87B167 /* Pods-Trigger Hunter AR.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5HCB9SF4EZ;
