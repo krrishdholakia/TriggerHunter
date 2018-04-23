@@ -1,4 +1,4 @@
-# TriggerHunter
+# Asthma GO
 
 Real Time Camera Object Detection with Machine Learning - CoreML: Swift 4
 
