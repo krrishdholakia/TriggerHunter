@@ -113,9 +113,11 @@ class ARViewController: UIViewController {
         overlayContentViewController = TriggerNameViewController.create(for: trigger)
         
         DispatchQueue.main.asyncAfter(deadline: .now() + .seconds(2)) {
-            let triggerInfo = TriggerInfoViewController.create(for: trigger)
-            triggerInfo.delegate = self
-            self.overlayContentViewController = triggerInfo
+//            let triggerInfo = TriggerInfoViewController.create(for: trigger)
+//            triggerInfo.delegate = self
+//            self.overlayContentViewController = triggerInfo
+            
+            self.didTapNextButton()
         }
     }
     
