@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2E6D64201F86724800330A96"
-               BuildableName = "Trigger Hunter AR.app"
-               BlueprintName = "Trigger Hunter AR"
-               ReferencedContainer = "container:Trigger Hunter AR.xcodeproj">
+               BuildableName = "Asthma GO.app"
+               BlueprintName = "Asthma GO"
+               ReferencedContainer = "container:Asthma GO.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -34,9 +34,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2E6D64201F86724800330A96"
-            BuildableName = "Trigger Hunter AR.app"
-            BlueprintName = "Trigger Hunter AR"
-            ReferencedContainer = "container:Trigger Hunter AR.xcodeproj">
+            BuildableName = "Asthma GO.app"
+            BlueprintName = "Asthma GO"
+            ReferencedContainer = "container:Asthma GO.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -58,9 +58,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2E6D64201F86724800330A96"
-            BuildableName = "Trigger Hunter AR.app"
-            BlueprintName = "Trigger Hunter AR"
-            ReferencedContainer = "container:Trigger Hunter AR.xcodeproj">
+            BuildableName = "Asthma GO.app"
+            BlueprintName = "Asthma GO"
+            ReferencedContainer = "container:Asthma GO.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -77,9 +77,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2E6D64201F86724800330A96"
-            BuildableName = "Trigger Hunter AR.app"
-            BlueprintName = "Trigger Hunter AR"
-            ReferencedContainer = "container:Trigger Hunter AR.xcodeproj">
+            BuildableName = "Asthma GO.app"
+            BlueprintName = "Asthma GO"
+            ReferencedContainer = "container:Asthma GO.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

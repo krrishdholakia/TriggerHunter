@@ -39,7 +39,7 @@
 		2E0CA19A1FB55DC400F8EF37 /* TriggerNameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriggerNameViewController.swift; sourceTree = "<group>"; };
 		2E0CA19E1FB55E7F00F8EF37 /* UIStoryboard+Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStoryboard+Main.swift"; sourceTree = "<group>"; };
 		2E0CA1A21FB5621500F8EF37 /* TriggerInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriggerInfoViewController.swift; sourceTree = "<group>"; };
-		2E6D64211F86724800330A96 /* Trigger Hunter AR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Trigger Hunter AR.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E6D64211F86724800330A96 /* Asthma GO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Asthma GO.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E6D64241F86724800330A96 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2E6D64281F86724800330A96 /* Scene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scene.swift; sourceTree = "<group>"; };
 		2E6D642A1F86724800330A96 /* ARViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewController.swift; sourceTree = "<group>"; };
@@ -49,7 +49,7 @@
 		2E6D64341F86724800330A96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2E6D643A1F86748B00330A96 /* Scene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Scene.sks; sourceTree = "<group>"; };
 		2E8248E51FD48E8A00EBEED0 /* TriggerNearbyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriggerNearbyViewController.swift; sourceTree = "<group>"; };
-		2E8248E71FD4941C00EBEED0 /* Trigger Hunter AR.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Trigger Hunter AR.entitlements"; sourceTree = "<group>"; };
+		2E8248E71FD4941C00EBEED0 /* Asthma GO.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Asthma GO.entitlements"; sourceTree = "<group>"; };
 		2ED1E7C21FB95BCF004BCBB1 /* QuizQuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizQuestionViewController.swift; sourceTree = "<group>"; };
 		2ED1E7C41FB960C1004BCBB1 /* Array+Shuffle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Shuffle.swift"; sourceTree = "<group>"; };
 		2EFF4F371FB4D18000AF4362 /* Trigger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trigger.swift; sourceTree = "<group>"; };
@@ -108,7 +108,7 @@
 		2E6D64181F86724800330A96 = {
 			isa = PBXGroup;
 			children = (
-				2E6D64231F86724800330A96 /* Trigger Hunter AR */,
+				2E6D64231F86724800330A96 /* Asthma GO */,
 				2E6D64221F86724800330A96 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -116,15 +116,15 @@
 		2E6D64221F86724800330A96 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2E6D64211F86724800330A96 /* Trigger Hunter AR.app */,
+				2E6D64211F86724800330A96 /* Asthma GO.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2E6D64231F86724800330A96 /* Trigger Hunter AR */ = {
+		2E6D64231F86724800330A96 /* Asthma GO */ = {
 			isa = PBXGroup;
 			children = (
-				2E8248E71FD4941C00EBEED0 /* Trigger Hunter AR.entitlements */,
+				2E8248E71FD4941C00EBEED0 /* Asthma GO.entitlements */,
 				2EFF4F371FB4D18000AF4362 /* Trigger.swift */,
 				5501D83D208BE7720088A703 /* Inceptionv3.mlmodel */,
 				2E0CA1991FB507B600F8EF37 /* View Controllers */,
@@ -138,15 +138,15 @@
 				2E6D64311F86724800330A96 /* LaunchScreen.storyboard */,
 				2E6D64341F86724800330A96 /* Info.plist */,
 			);
-			path = "Trigger Hunter AR";
+			path = "Asthma GO";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2E6D64201F86724800330A96 /* Trigger Hunter AR */ = {
+		2E6D64201F86724800330A96 /* Asthma GO */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2E6D64371F86724800330A96 /* Build configuration list for PBXNativeTarget "Trigger Hunter AR" */;
+			buildConfigurationList = 2E6D64371F86724800330A96 /* Build configuration list for PBXNativeTarget "Asthma GO" */;
 			buildPhases = (
 				2E6D641D1F86724800330A96 /* Sources */,
 				2E6D641E1F86724800330A96 /* Frameworks */,
@@ -156,9 +156,9 @@
 			);
 			dependencies = (
 			);
-			name = "Trigger Hunter AR";
+			name = "Asthma GO";
 			productName = "Trigger Hunter AR";
-			productReference = 2E6D64211F86724800330A96 /* Trigger Hunter AR.app */;
+			productReference = 2E6D64211F86724800330A96 /* Asthma GO.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -185,7 +185,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 2E6D641C1F86724800330A96 /* Build configuration list for PBXProject "Trigger Hunter AR" */;
+			buildConfigurationList = 2E6D641C1F86724800330A96 /* Build configuration list for PBXProject "Asthma GO" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -198,7 +198,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2E6D64201F86724800330A96 /* Trigger Hunter AR */,
+				2E6D64201F86724800330A96 /* Asthma GO */,
 			);
 		};
 /* End PBXProject section */
@@ -377,7 +377,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5HCB9SF4EZ;
-				INFOPLIST_FILE = "Trigger Hunter AR/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Asthma GO/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Krrish.Trigger-Hunter-AR-2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -391,7 +391,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5HCB9SF4EZ;
-				INFOPLIST_FILE = "Trigger Hunter AR/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Asthma GO/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Krrish.Trigger-Hunter-AR-2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -403,7 +403,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2E6D641C1F86724800330A96 /* Build configuration list for PBXProject "Trigger Hunter AR" */ = {
+		2E6D641C1F86724800330A96 /* Build configuration list for PBXProject "Asthma GO" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2E6D64351F86724800330A96 /* Debug */,
@@ -412,7 +412,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2E6D64371F86724800330A96 /* Build configuration list for PBXNativeTarget "Trigger Hunter AR" */ = {
+		2E6D64371F86724800330A96 /* Build configuration list for PBXNativeTarget "Asthma GO" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2E6D64381F86724800330A96 /* Debug */,
