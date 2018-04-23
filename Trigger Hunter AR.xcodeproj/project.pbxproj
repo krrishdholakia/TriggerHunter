@@ -179,7 +179,7 @@
 								enabled = 1;
 							};
 							com.apple.Push = {
-								enabled = 1;
+								enabled = 0;
 							};
 						};
 					};
@@ -375,10 +375,8 @@
 		2E6D64381F86724800330A96 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "Trigger Hunter AR/Trigger Hunter AR.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6SN9C8H97B;
+				DEVELOPMENT_TEAM = 5HCB9SF4EZ;
 				INFOPLIST_FILE = "Trigger Hunter AR/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Krrish.Trigger-Hunter-AR-2";
@@ -391,10 +389,8 @@
 		2E6D64391F86724800330A96 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "Trigger Hunter AR/Trigger Hunter AR.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6SN9C8H97B;
+				DEVELOPMENT_TEAM = 5HCB9SF4EZ;
 				INFOPLIST_FILE = "Trigger Hunter AR/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Krrish.Trigger-Hunter-AR-2";
