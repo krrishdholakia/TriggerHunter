@@ -25,6 +25,7 @@ class ObjectDetectionViewController: UIViewController, ARSCNViewDelegate {
     var objectList: [String] = ["monitor","thermostat", "smoke alarm", "bed", "sink", "soap", "trashcan", "nurse", "mop", "flower","clock", "inhaler", "tissues"]
     var triggerMap: Dictionary<String, Trigger> = [:]
     
+    var trigger: Trigger?
 
     static func create() -> ObjectDetectionViewController {
         let viewController = UIStoryboard.main.instantiateViewController(withIdentifier: "Trigger Detecting") as! ObjectDetectionViewController
@@ -33,6 +34,20 @@ class ObjectDetectionViewController: UIViewController, ARSCNViewDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        // Set the view's delegate
+        sceneView.delegate = self
+        
+        // Create a new scene
+        let scene = SCNScene()
+        
+        // Set the scene to the view
+        sceneView.scene = scene
+        
+        // Enable Default Lighting - makes the 3D text a bit poppier.
+        sceneView.autoenablesDefaultLighting = true
+        
+        self.overlayContentViewController = RoomScanViewController.create()
         
         for object in objectList {
             switch object {
@@ -76,6 +91,15 @@ class ObjectDetectionViewController: UIViewController, ARSCNViewDelegate {
         
     }
 
+    override func viewWillAppear(_ animated: Bool) {
+        // Create a session configuration
+        let configuration = ARWorldTrackingConfiguration()
+        // Enable plane detection
+        configuration.planeDetection = .horizontal
+        
+        // Run the view's session
+        sceneView.session.run(configuration)
+    }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -101,6 +125,10 @@ class ObjectDetectionViewController: UIViewController, ARSCNViewDelegate {
         
         DispatchQueue.main.async {
             
+            // Print Classifications
+            print(classifications)
+            print("--")
+            
             // Store the latest prediction
             var objectName:String = "…"
             objectName = classifications.components(separatedBy: "-")[0]
@@ -112,9 +140,21 @@ class ObjectDetectionViewController: UIViewController, ARSCNViewDelegate {
                 let trigger = self.triggerMap.removeValue(forKey: self.latestPrediction) ?? Trigger.named("Dust Mite")
                     self.overlayContentViewController = ARViewController.create(for: trigger)
             }
+            if self.latestPrediction.contains("monitor") {
+                self.trigger = self.triggerMap.removeValue(forKey: self.latestPrediction) ?? Trigger.named("Dust Mite")
+//                self.overlayContentViewController = ARViewController.create(for: trigger)
+//
+//
+                self.performSegue(withIdentifier: "ARIdentifier", sender: self)
+            }
         }
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let destination = segue.destination as? ARViewController {
+            destination.trigger = trigger
+        }
+    }
     // MARK: Managing overlay content view controller
     
     var overlayContentViewController: UIViewController? {

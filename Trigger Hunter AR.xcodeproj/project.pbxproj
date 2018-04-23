@@ -27,6 +27,8 @@
 		2EFF4F381FB4D18000AF4362 /* Trigger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EFF4F371FB4D18000AF4362 /* Trigger.swift */; };
 		5501D83E208BE7730088A703 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 5501D83D208BE7720088A703 /* Inceptionv3.mlmodel */; };
 		551D28BA208BE4DD0020CA94 /* ObjectDetectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551D28B9208BE4DD0020CA94 /* ObjectDetectionViewController.swift */; };
+		55385913208D15E9008BDE01 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55385912208D15E9008BDE01 /* RegistrationViewController.swift */; };
+		5538594F208D7838008BDE01 /* RoomScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5538594E208D7838008BDE01 /* RoomScanViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +55,8 @@
 		2EFF4F371FB4D18000AF4362 /* Trigger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trigger.swift; sourceTree = "<group>"; };
 		5501D83D208BE7720088A703 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 		551D28B9208BE4DD0020CA94 /* ObjectDetectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectDetectionViewController.swift; sourceTree = "<group>"; };
+		55385912208D15E9008BDE01 /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		5538594E208D7838008BDE01 /* RoomScanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomScanViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,7 @@
 		2E0CA1991FB507B600F8EF37 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				5538594E208D7838008BDE01 /* RoomScanViewController.swift */,
 				2E0CA1971FB507AD00F8EF37 /* TriggerListViewController.swift */,
 				2E6D642A1F86724800330A96 /* ARViewController.swift */,
 				2E8248E51FD48E8A00EBEED0 /* TriggerNearbyViewController.swift */,
@@ -86,6 +91,7 @@
 				2E0CA1A21FB5621500F8EF37 /* TriggerInfoViewController.swift */,
 				2ED1E7C21FB95BCF004BCBB1 /* QuizQuestionViewController.swift */,
 				551D28B9208BE4DD0020CA94 /* ObjectDetectionViewController.swift */,
+				55385912208D15E9008BDE01 /* RegistrationViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -220,9 +226,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				2EFF4F381FB4D18000AF4362 /* Trigger.swift in Sources */,
+				5538594F208D7838008BDE01 /* RoomScanViewController.swift in Sources */,
 				2E0CA1981FB507AD00F8EF37 /* TriggerListViewController.swift in Sources */,
 				5501D83E208BE7730088A703 /* Inceptionv3.mlmodel in Sources */,
 				2E6D642B1F86724800330A96 /* ARViewController.swift in Sources */,
+				55385913208D15E9008BDE01 /* RegistrationViewController.swift in Sources */,
 				551D28BA208BE4DD0020CA94 /* ObjectDetectionViewController.swift in Sources */,
 				2ED1E7C51FB960C1004BCBB1 /* Array+Shuffle.swift in Sources */,
 				2E0CA1A31FB5621500F8EF37 /* TriggerInfoViewController.swift in Sources */,
@@ -370,10 +378,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "Trigger Hunter AR/Trigger Hunter AR.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 823439UD45;
+				DEVELOPMENT_TEAM = 6SN9C8H97B;
 				INFOPLIST_FILE = "Trigger Hunter AR/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.Krrish.TriggerHunter;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Krrish.Trigger-Hunter-AR-2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -386,10 +394,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "Trigger Hunter AR/Trigger Hunter AR.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 823439UD45;
+				DEVELOPMENT_TEAM = 6SN9C8H97B;
 				INFOPLIST_FILE = "Trigger Hunter AR/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.Krrish.TriggerHunter;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Krrish.Trigger-Hunter-AR-2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
