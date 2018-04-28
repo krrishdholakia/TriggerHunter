@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_Trigger_Hunter_ARVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_Trigger_Hunter_ARVersionString[];
+FOUNDATION_EXPORT double Pods_Asthma_GOVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_Asthma_GOVersionString[];
 

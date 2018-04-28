@@ -26,15 +26,19 @@
 		2ED1E7C51FB960C1004BCBB1 /* Array+Shuffle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED1E7C41FB960C1004BCBB1 /* Array+Shuffle.swift */; };
 		2EFF4F381FB4D18000AF4362 /* Trigger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EFF4F371FB4D18000AF4362 /* Trigger.swift */; };
 		5501D83E208BE7730088A703 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 5501D83D208BE7720088A703 /* Inceptionv3.mlmodel */; };
+		5517953D2094EF08007A193B /* DoctorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5517953C2094EF08007A193B /* DoctorViewController.swift */; };
+		5517953F2094F027007A193B /* DoctorSecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5517953E2094F027007A193B /* DoctorSecondViewController.swift */; };
+		551795412094F038007A193B /* DoctorThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551795402094F038007A193B /* DoctorThirdViewController.swift */; };
+		551795432094F04A007A193B /* DoctorFourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551795422094F04A007A193B /* DoctorFourthViewController.swift */; };
 		551D28BA208BE4DD0020CA94 /* ObjectDetectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551D28B9208BE4DD0020CA94 /* ObjectDetectionViewController.swift */; };
 		55385913208D15E9008BDE01 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55385912208D15E9008BDE01 /* RegistrationViewController.swift */; };
 		5538594F208D7838008BDE01 /* RoomScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5538594E208D7838008BDE01 /* RoomScanViewController.swift */; };
 		55385951208D9576008BDE01 /* Participant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55385950208D9576008BDE01 /* Participant.swift */; };
-		C74B27A05A2136CBCF920C2A /* Pods_Trigger_Hunter_AR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC6D5F421C00904A5AE58FD4 /* Pods_Trigger_Hunter_AR.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		251339288308C4DCD7791298 /* Pods-Trigger Hunter AR.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Trigger Hunter AR.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Trigger Hunter AR/Pods-Trigger Hunter AR.debug.xcconfig"; sourceTree = "<group>"; };
+		23A38793708302686C183927 /* Pods-Asthma GO.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Asthma GO.release.xcconfig"; path = "Pods/Target Support Files/Pods-Asthma GO/Pods-Asthma GO.release.xcconfig"; sourceTree = "<group>"; };
+		29C0E58EDC985600001EC32F /* Pods-Asthma GO.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Asthma GO.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Asthma GO/Pods-Asthma GO.debug.xcconfig"; sourceTree = "<group>"; };
 		2E0CA1911FB5060F00F8EF37 /* Gotham Rounded Book.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham Rounded Book.otf"; sourceTree = "<group>"; };
 		2E0CA1921FB5060F00F8EF37 /* Gotham Rounded Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham Rounded Medium.otf"; sourceTree = "<group>"; };
 		2E0CA1931FB5060F00F8EF37 /* Gotham Rounded Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham Rounded Bold.otf"; sourceTree = "<group>"; };
@@ -56,13 +60,15 @@
 		2ED1E7C21FB95BCF004BCBB1 /* QuizQuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizQuestionViewController.swift; sourceTree = "<group>"; };
 		2ED1E7C41FB960C1004BCBB1 /* Array+Shuffle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Shuffle.swift"; sourceTree = "<group>"; };
 		2EFF4F371FB4D18000AF4362 /* Trigger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trigger.swift; sourceTree = "<group>"; };
-		536A2F31ACF17AD76F87B167 /* Pods-Trigger Hunter AR.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Trigger Hunter AR.release.xcconfig"; path = "Pods/Target Support Files/Pods-Trigger Hunter AR/Pods-Trigger Hunter AR.release.xcconfig"; sourceTree = "<group>"; };
 		5501D83D208BE7720088A703 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
+		5517953C2094EF08007A193B /* DoctorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DoctorViewController.swift; path = "View Controllers/DoctorViewController.swift"; sourceTree = "<group>"; };
+		5517953E2094F027007A193B /* DoctorSecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorSecondViewController.swift; sourceTree = "<group>"; };
+		551795402094F038007A193B /* DoctorThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorThirdViewController.swift; sourceTree = "<group>"; };
+		551795422094F04A007A193B /* DoctorFourthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorFourthViewController.swift; sourceTree = "<group>"; };
 		551D28B9208BE4DD0020CA94 /* ObjectDetectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectDetectionViewController.swift; sourceTree = "<group>"; };
 		55385912208D15E9008BDE01 /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
 		5538594E208D7838008BDE01 /* RoomScanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomScanViewController.swift; sourceTree = "<group>"; };
 		55385950208D9576008BDE01 /* Participant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Participant.swift; path = Helpers/Participant.swift; sourceTree = "<group>"; };
-		BC6D5F421C00904A5AE58FD4 /* Pods_Trigger_Hunter_AR.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Trigger_Hunter_AR.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,7 +76,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C74B27A05A2136CBCF920C2A /* Pods_Trigger_Hunter_AR.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +144,10 @@
 				2E0CA1991FB507B600F8EF37 /* View Controllers */,
 				2E0CA19D1FB55E7200F8EF37 /* Helpers */,
 				2E6D642C1F86724800330A96 /* Main.storyboard */,
+				5517953C2094EF08007A193B /* DoctorViewController.swift */,
+				5517953E2094F027007A193B /* DoctorSecondViewController.swift */,
+				551795402094F038007A193B /* DoctorThirdViewController.swift */,
+				551795422094F04A007A193B /* DoctorFourthViewController.swift */,
 				2E6D64241F86724800330A96 /* AppDelegate.swift */,
 				2E6D64281F86724800330A96 /* Scene.swift */,
 				2E6D643A1F86748B00330A96 /* Scene.sks */,
@@ -154,7 +163,6 @@
 		8BD5BFE621BCBC79F1E69D85 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				BC6D5F421C00904A5AE58FD4 /* Pods_Trigger_Hunter_AR.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -162,8 +170,8 @@
 		CDD0A4887FF519A352F82B3B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				251339288308C4DCD7791298 /* Pods-Trigger Hunter AR.debug.xcconfig */,
-				536A2F31ACF17AD76F87B167 /* Pods-Trigger Hunter AR.release.xcconfig */,
+				29C0E58EDC985600001EC32F /* Pods-Asthma GO.debug.xcconfig */,
+				23A38793708302686C183927 /* Pods-Asthma GO.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -256,7 +264,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Trigger Hunter AR/Pods-Trigger Hunter AR-frameworks.sh",
+				"${SRCROOT}/Pods/Target Support Files/Pods-Asthma GO/Pods-Asthma GO-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -265,7 +273,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Trigger Hunter AR/Pods-Trigger Hunter AR-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Asthma GO/Pods-Asthma GO-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		59C352A57B6C40FD39AB6533 /* [CP] Check Pods Manifest.lock */ = {
@@ -279,7 +287,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Trigger Hunter AR-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Asthma GO-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -293,10 +301,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5517953F2094F027007A193B /* DoctorSecondViewController.swift in Sources */,
 				2EFF4F381FB4D18000AF4362 /* Trigger.swift in Sources */,
 				5538594F208D7838008BDE01 /* RoomScanViewController.swift in Sources */,
 				2E0CA1981FB507AD00F8EF37 /* TriggerListViewController.swift in Sources */,
+				551795412094F038007A193B /* DoctorThirdViewController.swift in Sources */,
 				5501D83E208BE7730088A703 /* Inceptionv3.mlmodel in Sources */,
+				551795432094F04A007A193B /* DoctorFourthViewController.swift in Sources */,
 				2E6D642B1F86724800330A96 /* ARViewController.swift in Sources */,
 				55385913208D15E9008BDE01 /* RegistrationViewController.swift in Sources */,
 				551D28BA208BE4DD0020CA94 /* ObjectDetectionViewController.swift in Sources */,
@@ -304,6 +315,7 @@
 				2E0CA1A31FB5621500F8EF37 /* TriggerInfoViewController.swift in Sources */,
 				2E0CA19F1FB55E7F00F8EF37 /* UIStoryboard+Main.swift in Sources */,
 				55385951208D9576008BDE01 /* Participant.swift in Sources */,
+				5517953D2094EF08007A193B /* DoctorViewController.swift in Sources */,
 				2ED1E7C31FB95BCF004BCBB1 /* QuizQuestionViewController.swift in Sources */,
 				2E6D64291F86724800330A96 /* Scene.swift in Sources */,
 				2E0CA19B1FB55DC400F8EF37 /* TriggerNameViewController.swift in Sources */,
@@ -443,7 +455,7 @@
 		};
 		2E6D64381F86724800330A96 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 251339288308C4DCD7791298 /* Pods-Trigger Hunter AR.debug.xcconfig */;
+			baseConfigurationReference = 29C0E58EDC985600001EC32F /* Pods-Asthma GO.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5HCB9SF4EZ;
@@ -458,7 +470,7 @@
 		};
 		2E6D64391F86724800330A96 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 536A2F31ACF17AD76F87B167 /* Pods-Trigger Hunter AR.release.xcconfig */;
+			baseConfigurationReference = 23A38793708302686C183927 /* Pods-Asthma GO.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5HCB9SF4EZ;

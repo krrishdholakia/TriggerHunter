@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A8E943865AF3B007439EFE6F45354A8A"
-               BuildableName = "Pods_Trigger_Hunter_AR.framework"
-               BlueprintName = "Pods-Trigger Hunter AR"
+               BlueprintIdentifier = "2379DEB35B5110AB2ADFFEA131B36CDB"
+               BuildableName = "Pods_Asthma_GO.framework"
+               BlueprintName = "Pods-Asthma GO"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -47,9 +47,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A8E943865AF3B007439EFE6F45354A8A"
-            BuildableName = "Pods_Trigger_Hunter_AR.framework"
-            BlueprintName = "Pods-Trigger Hunter AR"
+            BlueprintIdentifier = "2379DEB35B5110AB2ADFFEA131B36CDB"
+            BuildableName = "Pods_Asthma_GO.framework"
+            BlueprintName = "Pods-Asthma GO"
             ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

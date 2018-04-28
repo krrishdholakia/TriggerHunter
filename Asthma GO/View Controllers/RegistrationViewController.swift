@@ -87,7 +87,10 @@ class RegistrationViewController: UIViewController, UIPickerViewDataSource, UIPi
         Alamofire.request("https://trigger-hunter.herokuapp.com/api/participants/newUser", method: HTTPMethod.post, parameters: parameters, encoding: JSONEncoding.default, headers: nil).validate().responseString {
             response in
             print(response)
-    }
+        }
+        
+        self.performSegue(withIdentifier: "doctorInitialIdentifier", sender: self)
+        
     }
     
     

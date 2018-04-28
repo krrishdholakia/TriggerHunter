@@ -19,7 +19,7 @@
         <!--Trigger Hunter-->
         <scene sceneID="glW-zB-w5a">
             <objects>
-                <tableViewController id="Y9A-cU-7Em" customClass="TriggerListViewController" customModule="Trigger_Hunter_AR" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="Y9A-cU-7Em" customClass="TriggerListViewController" customModule="Asthma_GO" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" id="QxN-O4-zAa">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -55,10 +55,10 @@
             </objects>
             <point key="canvasLocation" x="-39" y="-2372"/>
         </scene>
-        <!--View Controller-->
+        <!--Doctor View Controller-->
         <scene sceneID="YgO-Cb-P6H">
             <objects>
-                <viewController id="JmT-8J-m2A" sceneMemberID="viewController">
+                <viewController id="JmT-8J-m2A" customClass="DoctorViewController" customModule="Asthma_GO" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="GX3-ha-Wqj">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -107,7 +107,7 @@ Welcome to Asthma Go!
                         <viewLayoutGuide key="safeArea" id="5CX-mF-Yfr"/>
                     </view>
                     <connections>
-                        <segue destination="aSs-K9-UdI" kind="show" id="lOX-5L-0sT"/>
+                        <segue destination="aSs-K9-UdI" kind="show" identifier="doctorContinuedIdentifier" id="lOX-5L-0sT"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NlP-Za-wjI" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -117,7 +117,7 @@ Welcome to Asthma Go!
         <!--Registration View Controller-->
         <scene sceneID="7xC-GZ-4lQ">
             <objects>
-                <viewController id="Vaj-if-pbX" customClass="RegistrationViewController" customModule="Trigger_Hunter_AR" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Vaj-if-pbX" customClass="RegistrationViewController" customModule="Asthma_GO" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="mEg-Sl-bMY">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -172,7 +172,7 @@ Welcome to Asthma Go!
                         <outlet property="onDoneClicked" destination="fop-XL-2b5" id="qpB-Ug-Rzg"/>
                         <outlet property="participantID" destination="RLq-aP-YXO" id="dMf-gJ-laU"/>
                         <outlet property="pickerView" destination="woc-0D-nBw" id="HIY-Id-1bm"/>
-                        <segue destination="JmT-8J-m2A" kind="show" id="hm5-gi-TDH"/>
+                        <segue destination="JmT-8J-m2A" kind="show" identifier="doctorInitialIdentifier" id="hm5-gi-TDH"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GGO-Rh-dQR" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -182,7 +182,7 @@ Welcome to Asthma Go!
         <!--Object Detection View Controller-->
         <scene sceneID="AvB-ru-V5B">
             <objects>
-                <viewController id="xvX-te-JdD" customClass="ObjectDetectionViewController" customModule="Trigger_Hunter_AR" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="xvX-te-JdD" customClass="ObjectDetectionViewController" customModule="Asthma_GO" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="DcY-h7-Pw8">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -207,7 +207,7 @@ Welcome to Asthma Go!
         <!--View Controller-->
         <scene sceneID="tXr-a1-R10">
             <objects>
-                <viewController storyboardIdentifier="AR" id="BV1-FR-VrT" customClass="ARViewController" customModule="Trigger_Hunter_AR" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="AR" id="BV1-FR-VrT" customClass="ARViewController" customModule="Asthma_GO" customModuleProvider="target" sceneMemberID="viewController">
                     <arskView key="view" contentMode="scaleToFill" allowsTransparency="YES" sceneName="Scene" id="EO5-fy-WZq">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -223,7 +223,7 @@ Welcome to Asthma Go!
         <!--Trigger Name View Controller-->
         <scene sceneID="vjT-BX-vGa">
             <objects>
-                <viewController storyboardIdentifier="Trigger Name" id="S0K-QB-nXd" customClass="TriggerNameViewController" customModule="Trigger_Hunter_AR" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Trigger Name" id="S0K-QB-nXd" customClass="TriggerNameViewController" customModule="Asthma_GO" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Uuo-Bu-PB3">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -285,7 +285,7 @@ Welcome to Asthma Go!
         <!--Trigger Nearby View Controller-->
         <scene sceneID="ojE-F4-U1w">
             <objects>
-                <viewController storyboardIdentifier="Trigger Nearby" id="NOR-jP-dx1" customClass="TriggerNearbyViewController" customModule="Trigger_Hunter_AR" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Trigger Nearby" id="NOR-jP-dx1" customClass="TriggerNearbyViewController" customModule="Asthma_GO" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="qpM-Qy-FSD">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -354,7 +354,7 @@ Welcome to Asthma Go!
         <!--Trigger Info View Controller-->
         <scene sceneID="ndR-DR-wuG">
             <objects>
-                <viewController storyboardIdentifier="Trigger Info" id="Wr7-gN-Pkq" customClass="TriggerInfoViewController" customModule="Trigger_Hunter_AR" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Trigger Info" id="Wr7-gN-Pkq" customClass="TriggerInfoViewController" customModule="Asthma_GO" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="pkx-KK-H4w">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -511,7 +511,7 @@ Welcome to Asthma Go!
         <!--Quiz Question View Controller-->
         <scene sceneID="9sB-nJ-BQ3">
             <objects>
-                <viewController storyboardIdentifier="Quiz Question" id="pj5-b7-erq" customClass="QuizQuestionViewController" customModule="Trigger_Hunter_AR" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Quiz Question" id="pj5-b7-erq" customClass="QuizQuestionViewController" customModule="Asthma_GO" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="CWx-4J-JQo">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -663,10 +663,10 @@ Welcome to Asthma Go!
             </objects>
             <point key="canvasLocation" x="3441" y="16"/>
         </scene>
-        <!--View Controller-->
+        <!--Doctor Second View Controller-->
         <scene sceneID="UUt-Pk-NXV">
             <objects>
-                <viewController id="aSs-K9-UdI" sceneMemberID="viewController">
+                <viewController id="aSs-K9-UdI" customClass="DoctorSecondViewController" customModule="Asthma_GO" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="0nJ-J1-MR2">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -715,17 +715,17 @@ Your mission is to defeat them!
                         <viewLayoutGuide key="safeArea" id="IcT-sW-yjs"/>
                     </view>
                     <connections>
-                        <segue destination="OOn-9F-ERx" kind="show" id="leb-UT-A4r"/>
+                        <segue destination="OOn-9F-ERx" kind="show" identifier="doctorThirdIdentifier" id="leb-UT-A4r"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pD2-iI-vfR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1311" y="-847"/>
         </scene>
-        <!--View Controller-->
+        <!--Doctor Third View Controller-->
         <scene sceneID="0eO-aE-nSb">
             <objects>
-                <viewController id="OOn-9F-ERx" sceneMemberID="viewController">
+                <viewController id="OOn-9F-ERx" customClass="DoctorThirdViewController" customModule="Asthma_GO" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="AYw-NZ-A2e">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -774,17 +774,17 @@ You will learn more about asthma and how to control it throughout this game!
                         <viewLayoutGuide key="safeArea" id="DvP-VP-ZjS"/>
                     </view>
                     <connections>
-                        <segue destination="DPk-Qd-u2Y" kind="show" id="8st-4j-yDg"/>
+                        <segue destination="DPk-Qd-u2Y" kind="show" identifier="doctorFourthIdentifier" id="8st-4j-yDg"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vVh-yO-QK1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-39" y="-847"/>
         </scene>
-        <!--View Controller-->
+        <!--Doctor Fourth View Controller-->
         <scene sceneID="QYh-zr-9hy">
             <objects>
-                <viewController id="DPk-Qd-u2Y" sceneMemberID="viewController">
+                <viewController id="DPk-Qd-u2Y" customClass="DoctorFourthViewController" customModule="Asthma_GO" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ewE-YR-CBQ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -834,7 +834,7 @@ Good luck!
                         <viewLayoutGuide key="safeArea" id="Krq-Gs-FbY"/>
                     </view>
                     <connections>
-                        <segue destination="xvX-te-JdD" kind="show" id="5Uc-Hs-Lw8"/>
+                        <segue destination="xvX-te-JdD" kind="show" identifier="scanRoomIdentifier" id="5Uc-Hs-Lw8"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="H9i-SK-LaN" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -844,7 +844,7 @@ Good luck!
         <!--Room Scan View Controller-->
         <scene sceneID="Hoe-lD-DZf">
             <objects>
-                <viewController storyboardIdentifier="Object Search" id="KJK-qQ-jiU" customClass="RoomScanViewController" customModule="Trigger_Hunter_AR" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Object Search" id="KJK-qQ-jiU" customClass="RoomScanViewController" customModule="Asthma_GO" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="u0Y-hj-09V">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
