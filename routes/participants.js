@@ -38,7 +38,7 @@ router.route('/newUser')
         })
     })
     .get((req, res) => {
-        Pariticipants.find({}, {username: 1, _id: 0})
+        Pariticipants.find({}, {participant_id: 1, _id: 0})
         .then((user) => res.send(user))
         .catch((err) => res.send(err))
       });
