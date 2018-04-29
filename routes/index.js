@@ -7,7 +7,7 @@ const { check, oneOf, validationResult } = require('express-validator/check');
 //Local Imports
 const participants = require('./participants');
 // const db = process.env.MONGOLAB_URI;
-const db = 'mongodb://triggerhunter:triggerhunterteam@ds131258.mlab.com:31258/she17erdb';
+const db = 'mongodb://triggerhunter:triggerhunterteam@ds247759.mlab.com:47759/triggerhunterteam'
 
 // const admin = require('./admin');
 mongoose.Promise = global.Promise;

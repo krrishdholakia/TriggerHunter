@@ -4,11 +4,9 @@ const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
 const router = express.Router();
 // const { check, oneOf, validationResult } = require('express-validator/check');
-const MONGO_URL = 'mongodb://krrishdholakia:she17erTeam@ds131258.mlab.com:31258/she17erdb';
 //Local Imports
 const Pariticipants = require('../models/participant');
-const db = 'mongodb://triggerhunter:triggerhunterteam@ds131258.mlab.com:31258/she17erdb';
-
+const db = 'mongodb://triggerhunter:triggerhunterteam@ds247759.mlab.com:47759/triggerhunterteam'
 // Use native ES6 promises
 mongoose.Promise = global.Promise;
 mongoose.connect(db);
